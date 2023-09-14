@@ -1,0 +1,70 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set the background color and font family for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Create a container for the resume content */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the main heading (your name) */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Style the job title or subtitle (e.g., "Web Developer") */
+p {
+    text-align: center;
+    color: #666;
+    font-style: italic;
+}
+
+/* Style individual resume sections */
+.section {
+    margin-top: 20px;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+}
+
+/* Style section headings (e.g., "Summary," "Education") */
+.section h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Style section content (e.g., paragraphs and lists) */
+.section p,
+.section ul {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+}
+
+/* Style list items in resume sections */
+.section ul li {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+/* Style links (e.g., LinkedIn and GitHub) */
+.section a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.section a:hover {
+    text-decoration: underline;
+}
